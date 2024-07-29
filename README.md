@@ -4,7 +4,7 @@ Visual Studio Code language extension for working with Medieval 2 files
 ![alt text](./images/image.png)
 
 ## Acknowledgements
-* Belovese (.belovese) from SSHIP/Insularis Draco for the original files. This is a fork.
+- Belovese (.belovese) from SSHIP/Insularis Draco for the original files. This is a fork.
 
 ## Currently Supported Files
 - campaign_script.txt
