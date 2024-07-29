@@ -1,0 +1,41 @@
+{
+    "comments": {
+        // symbol used for single line comment. Remove this entry if your language does not support line comments
+        "lineComment": ";"
+    },
+    // symbols used as brackets
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"],
+        { "open": "monitor_event", "close": "\n\nend_monitor", "notIn": ["string", "comment"] },
+        { "open": "monitor_conditions", "close": "\n\nend_monitor", "notIn": ["string", "comment"] },
+        { "open": "while", "close": "\n\nend_while", "notIn": ["string", "comment"] },
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"]
+    ],
+    "folding": {
+        "if": {
+          "start": "^\\s*//\\s*#?if\\b",
+          "end": "^\\s*//\\s*#?end_if\\b"
+        },
+        "monitor": {
+            "start": "^\\s*//\\s*#?monitor_event\\b",
+            "end": "^\\s*//\\s*#?end_monitor\\b"
+        }
+    }
+}
