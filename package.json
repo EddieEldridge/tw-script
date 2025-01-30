@@ -1,48 +1,48 @@
 {
-	"name": "tw-script",
-	"displayName": "tw-script",
-	"description": "Language extension for working with Medieval 2: Total War text files",
-	"version": "1.0.0",
-	"engines": {
-		"vscode": "^1.80.0"
-	},
-	"categories": [
-		"Programming Languages"
-	],
-	"repository": "https://github.com/EddieEldridge/tw-script",
-	"contributes": {
-		"languages": [
-			{
-				"id": "tw-script",
-				"aliases": [
-					"tw-script"
-				],
-				"extensions": [
-					"campaign_script.txt",
-					"export_descr_buildings.txt",
-					"export_descr_ancillaries.txt",
-					"export_descr_character_traits.txt",
-					"export_buildings.txt",
-					"export_ancillaries.txt",
-					"export_traits.txt",
-					"export_vnvs.txt",
-					"descr_strat.txt"
-				],
-				"configuration": "./language-configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "tw-script",
-				"scopeName": "source.med",
-				"path": "./syntaxes/tw-script.tmLanguage.json"
-			}
-		]
-	},
-	"__metadata": {
-		"isApplicationScoped": false,
-		"installedTimestamp": 1717509272971,
-		"pinned": false,
-		"source": "vsix"
-	}
+  "name": "tw-script",
+  "displayName": "tw-script",
+  "description": "Language extension for working with Medieval 2: Total War text files",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": "https://github.com/EddieEldridge/tw-script",
+  "contributes": {
+    "languages": [
+      {
+        "id": "tw-script",
+        "aliases": [
+          "tw-script"
+        ],
+        "extensions": [
+          "campaign_script.txt",
+          "export_descr_buildings.txt",
+          "export_descr_ancillaries.txt",
+          "export_descr_character_traits.txt",
+          "export_buildings.txt",
+          "export_ancillaries.txt",
+          "export_traits.txt",
+          "export_vnvs.txt",
+          "descr_strat.txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tw-script",
+        "scopeName": "source.med",
+        "path": "./syntaxes/tw-script.tmLanguage.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "isApplicationScoped": false,
+    "installedTimestamp": 1717509272971,
+    "pinned": false,
+    "source": "vsix"
+  }
 }
