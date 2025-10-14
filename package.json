@@ -2,7 +2,7 @@
   "name": "tw-script",
   "displayName": "tw-script",
   "description": "Language extension for working with Medieval 2: Total War text files",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.80.0"
   },
