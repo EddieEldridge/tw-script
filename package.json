@@ -2,7 +2,7 @@
   "name": "tw-script",
   "displayName": "tw-script",
   "description": "Language extension for working with Medieval 2: Total War text files",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -10,6 +10,20 @@
     "Programming Languages"
   ],
   "repository": "https://github.com/EddieEldridge/tw-script",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:tw-script"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
   "contributes": {
     "languages": [
       {
