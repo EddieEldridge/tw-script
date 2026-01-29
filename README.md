@@ -25,4 +25,8 @@ Simply download the .vsix file and install using the `Extensions: Install from V
 Specify the language-mode for files to be `tw-script`
 
 ## Development
-Bump the version in `package.json` and run `vsce package` (Install it if you don't already have it)
+```
+npm install
+npm run compile
+npx vsce package
+```
